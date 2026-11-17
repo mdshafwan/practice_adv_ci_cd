@@ -11,7 +11,7 @@ from sklearn.metrics import (
 def evalution(y_test,pred):
     """sample"""
     return {
-        "accuracy_score":accuracy_score(y_test,pred),
+        "accuracy":accuracy_score(y_test,pred),
         "f1_score":f1_score(y_test,pred),
         "recall_Score":recall_score(y_test,pred),
         "precision_score":precision_score(y_test,pred)
