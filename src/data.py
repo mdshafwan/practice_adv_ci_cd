@@ -1,4 +1,4 @@
-"""sample"""
+"""this file was basically used to do explain loading the dataset and also preprocessing dataset"""
 import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
